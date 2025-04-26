@@ -15,7 +15,7 @@ function Task() {
     </div>)
 
     const addTask = () => {
-        if (newTask.trim().length > 0 && !tasks.includes(newTask)) {
+        if (newTask.trim().length > 0 && !tasks.includes(newTask) && newTask.length <= 15) {
             setTasks(t => [...t, newTask])
         }
 
