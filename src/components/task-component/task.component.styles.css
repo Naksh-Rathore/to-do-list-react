@@ -1,0 +1,40 @@
+.task {
+    border: 2px solid;
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px;
+    transform: translateX(70px);
+}
+
+.task button {
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.task .doneTask {
+    background-color: green;
+    color: white;
+}
+
+.task .doneTask:hover {
+    background-color: hsl(120, 100%, 30%);
+}
+
+.task .doneTask:active {
+    background-color: hsl(120, 100%, 35%);
+}
+
+.task .moveTask {
+    background-color: blue;
+}
+
+.task .moveTask:hover {
+    background-color: hsl(240, 100%, 60%);
+}
+
+.task .moveTask:active {
+    background-color: hsl(240, 100%, 70%);
+}
